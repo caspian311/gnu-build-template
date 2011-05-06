@@ -1,3 +1,3 @@
-bin_PROGRAMS=a.out
-a_out_SOURCES=sample-project.cpp
+bin_PROGRAMS=helloworld
+helloworld_SOURCES=hello_world.cpp
 

@@ -1,3 +1,1 @@
-bin_PROGRAMS=helloworld
-helloworld_SOURCES=hello_world.cpp
-
+SUBDIRS = shared hello

@@ -1,14 +1,11 @@
-dnl Process this file with autoconf to produce a configure script.
-
-AC_PREREQ(2.59)
-AC_INIT(hello_world, 1.0)
-
-
-AC_CANONICAL_SYSTEM
-AM_INIT_AUTOMAKE()
-
+AC_INIT(configure.in)
+AM_INIT_AUTOMAKE(helloworld,0.1)
+AC_PROG_CC
 AC_PROG_CXX
-
-AC_CONFIG_FILES(Makefile src/Makefile)
-AC_OUTPUT
-
+AC_PROG_INSTALL
+AC_PROG_RANLIB
+AC_OUTPUT(Makefile \
+src/Makefile \
+src/hello/Makefile \
+src/shared/Makefile \
+)

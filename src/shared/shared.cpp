@@ -2,7 +2,7 @@
 
 using namespace std;
 
-public void greating(string message)
+int string(int x, int y)
 {
-   cout << message << endl;
+   return x + y;
 }

@@ -4,6 +4,6 @@
 using namespace std;
 
 int main(void) {
-	greating("Hello, world!");
+	cout << add(1, 2) << endl;
 	return 0;
 }

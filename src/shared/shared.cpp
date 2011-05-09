@@ -1,8 +1,7 @@
+#include <string>
 #include "shared.h"
 
-using namespace std;
-
-int string(int x, int y)
+std::string greeting(std::string name)
 {
-   return x + y;
+   return "Hello, " + name;
 }

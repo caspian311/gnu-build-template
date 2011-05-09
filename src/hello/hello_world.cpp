@@ -1,9 +1,8 @@
+#include <string>
 #include <iostream>
 #include "shared.h"
 
-using namespace std;
-
 int main(void) {
-	cout << add(1, 2) << endl;
+	cout << greeting("Matt") << endl;
 	return 0;
 }

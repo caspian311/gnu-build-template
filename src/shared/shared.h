@@ -1,7 +1,8 @@
+#include <string>
 
 #ifndef SHARED_H_
 #define SHARED_H_
 
-int add(int x, int y);
+std::string greeting(std::string name);
 
 #endif /* SHARED_H_ */

@@ -3,5 +3,5 @@
 
 std::string greeting(std::string name)
 {
-   return "Hello, " + name;
+   return "Hello, " + name + "!";
 }

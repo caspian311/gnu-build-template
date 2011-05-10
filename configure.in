@@ -8,4 +8,6 @@ AC_OUTPUT(Makefile \
 src/Makefile \
 src/hello/Makefile \
 src/shared/Makefile \
+test/Makefile \
+test/shared/Makefile \
 )
